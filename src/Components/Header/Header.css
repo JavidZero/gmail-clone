@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__left > img {
+    object-fit: contain;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.header__MenuButton {
+    object-fit: contain !important;
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.header__middle {
+    display: flex;
+    align-items: center;
+    flex: .7;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header__middleIcon {
+    color: grey !important;
+
+}
+
+.header__middle > input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    background-color: transparent;
+    outline: none;
+}
+
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
